@@ -78,18 +78,7 @@ hr {
   height: 0;
   overflow: visible;
 }
-.inner-banner {
-  background-image: url('https://storageforbeautifub.blob.core.windows.net/assests/images/banner2.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 300px; /* Adjust the height as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white; /* Text color */
-  text-shadow: 1px 1px 2px black; 
-  /* Other CSS properties... */
-}
+
 
 h1,
 h2,
