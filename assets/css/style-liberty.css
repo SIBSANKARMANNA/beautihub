@@ -80,7 +80,7 @@ hr {
 }
 .inner-banner {
   background-image: url('https://storageforbeautifub.blob.core.windows.net/assests/images/banner2.jpg');
-   background-size: cover;
+  background-size: cover;
   background-position: center;
   height: 300px; /* Adjust the height as needed */
   display: flex;
