@@ -78,6 +78,10 @@ hr {
   height: 0;
   overflow: visible;
 }
+.inner-banner1 {
+  background-image: url('https://storageforbeautifub.blob.core.windows.net/assests/images/banner2.jpg');
+  /* Other CSS properties... */
+}
 
 h1,
 h2,
