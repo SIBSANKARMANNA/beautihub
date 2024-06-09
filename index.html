@@ -536,23 +536,22 @@ I love the variety of services offered at BeautiHub. From makeup to aromatherapy
                 </div>
             </div>
             <!-- //footer -->
-             <div id="healthbot-container"></div>
-    <script>
-        (function() {
-            var botConnection = new BotChat.DirectLine({
-                secret: "auLEDoaFwAg.yXGW_7LnPmI2XnNQsxkhhaIaIaqV9_XZ52surap6gzU"
-            });
-            BotChat.App({
-                botConnection: botConnection,
-                user: { id: "user" },
-                bot: { id: "bot" },
-                resize: 'detect'
-            }, document.getElementById("healthbot-container"));
-        })();
-    </script>
+            <iframe 
+  src="https://healthbot-w6yjoqd.healthbot.microsoft.com/chatbot.html"
+  frameborder="0"
+  style="width: 100%; height: 500px;">
+</iframe>
         </div>
         <!-- //right content -->
     </div>
+<script>
+  (function() {
+      var healthBot = document.createElement('iframe');
+      healthBot.src = "https://healthbot-w6yjoqd.healthbot.microsoft.com/chatbot.html";
+      healthBot.style = "width: 100%; height: 500px; border: none;";
+      document.body.appendChild(healthBot);
+  })();
+</script>
 
     <!-- Js scripts -->
     <!-- move top -->
