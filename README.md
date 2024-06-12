@@ -38,7 +38,7 @@ The project also provides features such as online appointment booking, customer 
 
 1. Clone the repository
 
-   
+   git clone https://github.com/SIBSANKARMANNA/beautihub.git
 
 ##Azure Services
        ###Static Web App
